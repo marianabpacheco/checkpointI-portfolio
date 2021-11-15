@@ -1,0 +1,101 @@
+body{
+    font: Lato !important;
+  }
+  
+nav {
+    background:#222B31 !important;
+    border-bottom:4px solid #EE445F !important;
+    position:fixed !important;
+    width: 100%;
+    z-index: 1000;
+    .navbar-brand{
+        font:16px Lato !important;
+        text-transform:uppercase;
+        color:#FFF !important;
+        letter-spacing:2px;
+        margin-top:2px;
+    }
+
+     
+    .navbar-toggler{
+    border:none;
+    }
+  }
+  
+  ul{
+    margin-bottom:0px;
+    a{
+        font:500 11px Lato;
+        letter-spacing:2px;
+        padding:16px !important;
+        color:#a3bfc6 !important;
+        text-transform:uppercase;
+        position:relative;
+        z-index:1000;
+        height:100% !important;
+       
+      }
+      a:hover{
+        color:#FFF !important;
+        animation-name:slide !important;
+        animation:550ms forwards;
+      }
+      li{
+        position:relative;
+      }
+  }
+
+  
+
+button{
+    cursor:pointer;
+    
+}
+
+button:hover{
+    background:transparent !important;
+    border:none !important;
+    color:transparent !important;
+}
+
+button:focus{
+    background:transparent !important;
+    color:transparent !important;
+}
+
+button:active{
+    background:transparent !important;
+    color:transparent !important;
+}
+
+.navbar-collapse{
+    box-shadow:none !important;
+    color:transparent !important;
+  }
+
+  @keyframes slide{
+    from{
+        width:0%;
+    }
+    to{
+        background-color:#EE445F;
+        width:100%;
+    }
+  }
+ 
+  
+  @media (max-width: 767px) {
+  nav{
+    padding-bottom:20px;
+    a{
+      padding:12px !important;
+    }
+  }
+  }
+  
+  @media (max-width: 480px) {
+    nav{
+      padding-bottom:20px;
+    }
+  }
+  
