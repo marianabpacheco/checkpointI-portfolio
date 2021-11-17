@@ -1,5 +1,5 @@
 #projectImg{
-    width:500px;
+    width:100%;
     height: auto;
     margin-bottom:0.5rem;
     border-radius: 0.5rem 0.5rem 0 0;
@@ -72,13 +72,18 @@ ul{
   }
  
   @media(max-width:560px){
+
+
+
     .card{
         min-width:300px;
         height: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     #projectImg{
-        max-width:150px;
+        width:100%;
         height: auto;
     }
   }
